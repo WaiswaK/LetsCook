@@ -1,0 +1,2 @@
+D:\Current Projects\LetsCook\LetsCook\LetsCook.WinPhone\LetsCook.WinPhone.csproj;neutral
+D:\Current Projects\LetsCook\LetsCook\LetsCook\LetsCook.csproj;neutral

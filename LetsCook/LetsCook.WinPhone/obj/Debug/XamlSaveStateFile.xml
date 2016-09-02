@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\current projects\letscook\letscook\letscook.winphone\obj\debug\intermediatexaml\letscook.winphone.exe" HashGuid="81505918-b0c1-a153-e9c1-a82aef8a0fe6" />
+    <ReferenceAssembly PathName="d:\current projects\letscook\letscook\letscook\bin\debug\letscook.dll" HashGuid="350c2e74-c9a0-dfe2-843a-07bc1157458e" />
+    <ReferenceAssembly PathName="d:\current projects\letscook\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.core.dll" HashGuid="af180b9a-aa51-0944-927e-c6473cd8810f" />
+    <ReferenceAssembly PathName="d:\current projects\letscook\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="d:\current projects\letscook\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="9252d1f6-d345-6b4f-eb93-61537b95eb17" />
+    <ReferenceAssembly PathName="d:\current projects\letscook\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="b8557fe6-625f-3f09-5ca0-7389960acdca" />
+    <ReferenceAssembly PathName="d:\current projects\letscook\packages\xamarin.forms.2.3.1.114\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,30 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using LetsCook.ViewModels;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace LetsCook
 {
     public class App : Application
     {
+        private RecipeViewModel _rvm;
         public App()
         {
             // The root page of your application
-            MainPage = new ContentPage
+            MainPage = new NavigationPage(new Views.MainPage());
+        }
+
+        public async Task<RecipeViewModel> GetRecipeViewModelAsync()
+        {
+            if (_rvm == null)
             {
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+                _rvm = new RecipeViewModel();
+                await _rvm.LoadRecipesAsync();
+            }
+
+            return _rvm;
         }
 
         protected override void OnStart()
